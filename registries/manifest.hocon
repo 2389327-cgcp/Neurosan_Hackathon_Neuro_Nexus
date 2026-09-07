@@ -9,7 +9,7 @@
     # Fresh `ns init` projects start with an empty list.
     include "registries/generated/manifest.hocon",
 
-    "basic/music_nerd.hocon": true,
+    "basic/data_engineer.hocon": true,
 
     #
     # Agent Network Designer family. Installed so a brand-new project can design agent networks

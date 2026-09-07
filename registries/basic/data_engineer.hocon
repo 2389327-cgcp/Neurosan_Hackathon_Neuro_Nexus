@@ -1,0 +1,115 @@
+#Data engineer network with 3 agents
+
+
+{
+    # Metadata describing this multi-agent governance network
+    "metadata": {
+        "description": "Multi-Agent Medallion Lakehouse Governance with Automated Optimization.",
+        "tags": ["lakehouse", "governance", "medallion", "dbt", "pyspark", "optimization"],
+        "sample_queries": [
+            "Audit this incoming raw JSON batch and optimize it for storage.",
+            "Generate dbt tests and suggest a partition strategy for silver_users.",
+            "Audit payload, write PySpark code, and estimate Z-Order columns."
+        ]
+    },
+
+    include "registries/expertise_scoping_instructions.hocon",
+
+    # Load shared LLM config from config/llm_config.hocon
+    include "config/llm_config.hocon",
+
+    "tools": [
+        # =========================================================================
+        # AGENT 1: Front-Man / Orchestrator (Governance Auditor)
+        # =========================================================================
+        {
+            "name": "medallion_governance_auditor",
+
+            "function": {
+                "description": """
+Chief Governance & Architecture Auditor. Accepts payloads, delegates quality checks,
+and coordinates with the optimization specialist.
+"""
+            },
+
+            "instructions": ${expertise_scoping_instructions} """
+You are the Chief Data Governance Officer for a Medallion Lakehouse.
+
+### Responsibilities:
+1. Inspect the incoming request for PII compliance and schema issues.
+2. Delegate code generation to 'lakehouse_quality_specialist'.
+3. Delegate storage and performance tuning tasks to 'lakehouse_optimizer_agent'.
+4. CRITICAL OUTPUT RULE: Collect responses from downstream agents, combine them into a single markdown report, and output it directly to the chat section so the user can see it immediately. Never return an empty response.
+""",
+            "tools": ["lakehouse_quality_specialist", "lakehouse_optimizer_agent"]
+        },
+
+        # =========================================================================
+        # AGENT 2: Quality & Transformation Specialist
+        # =========================================================================
+        {
+            "name": "lakehouse_quality_specialist",
+
+            "function": {
+                "description": """
+Specialist agent that produces PySpark cleansing code, dbt tests, and DLT expectations.
+""",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "raw_payload": {
+                            "type": "string",
+                            "description": "The raw data sample or schema requirements to process."
+                        }
+                    },
+                    "required": ["raw_payload"]
+                }
+            },
+
+            "instructions": ${expertise_scoping_instructions} """
+You are a Lakehouse Data Quality Engineer.
+
+### Responsibilities:
+When given raw data payloads or table rules:
+1. **PySpark Code:** Write memory-optimized PySpark code for Bronze to Silver transition (null handling, timestamp casting, deduplication).
+2. **dbt & DLT:** Provide a simple `schema.yml` dbt test file and Delta Live Tables expectation decorators.
+Keep output concise and structured in markdown blocks to fit free-tier token limits.
+""",
+            "tools": []
+        },
+
+        # =========================================================================
+        # AGENT 3: Lightweight Optimizer Agent
+        # =========================================================================
+        {
+            "name": "lakehouse_optimizer_agent",
+
+            "function": {
+                "description": """
+Specialist agent that suggests Delta Lake maintenance commands like OPTIMIZE, VACUUM, and Z-Order configurations.
+""",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "table_name": {
+                            "type": "string",
+                            "description": "Target Delta table name or query context."
+                        }
+                    },
+                    "required": ["table_name"]
+                }
+            },
+
+            "instructions": ${expertise_scoping_instructions} """
+You are a Delta Lake Performance Tuning Specialist.
+
+### Responsibilities:
+When given a table name or workload:
+1. **Z-Order Suggestions:** Recommend columns for `ZORDER BY` based on typical filter patterns.
+2. **Maintenance Commands:** Output short SQL snippets for `OPTIMIZE` and `VACUUM`.
+Keep outputs very brief and syntax-focused so small free models execute it reliably without timing out.
+""",
+            "tools": []
+        }
+    ]
+}

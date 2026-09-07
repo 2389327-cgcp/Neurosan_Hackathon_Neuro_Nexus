@@ -1,5 +1,10 @@
 {
-    "llm_config": {
-        "model_name": "gemini-3-flash"
-    }
+  "llm_config": {
+    "class": "langchain_openai.ChatOpenAI",
+    "model_name": "openrouter/free",
+    "openai_api_base": "https://openrouter.ai/api/v1",
+    "api_key": "",
+    "openai_api_key": "",
+    "temperature": 0
+  }
 }
