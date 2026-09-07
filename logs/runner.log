@@ -440,3 +440,432 @@
 2026-09-07 08:52:24 UTC | INFO     | NeuroSanRunner:signal_handler:303 - Running cleanup for plugin: ProcessLogBridgePlugin Plugin
 2026-09-07 08:52:24 UTC | INFO     | ProcessLogBridgePlugin:cleanup:87 - [ProcessLogBridgePlugin] Cleaning up
 2026-09-07 08:52:24 UTC | INFO     | ProcessLogBridgePlugin:cleanup:89 - [ProcessLogBridgePlugin] Cleanup complete
+2026-09-07 08:57:46 UTC | INFO     | ProcessLogBridge:_ensure_root_configured:229 - Runner logging initialized (rich console enabled)
+2026-09-07 08:57:47 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Will watch for changes in these directories: ['/workspaces/Neurosan_Hackathon_Neuro_Nexus']
+2026-09-07 08:57:47 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Uvicorn running on http://localhost:4173 (Press CTRL+C to quit)
+2026-09-07 08:57:47 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Started reloader process [19228] using StatReload
+2026-09-07 08:57:55 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-09-07 08:57:55 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-09-07 08:57:55 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-09-07 08:57:55 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=19231)
+2026-09-07 08:57:55 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=19231)
+2026-09-07 08:57:57 UTC | INFO     | nsflow:_log:823 - nsflow - /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/jwt/api_jwt.py:147: InsecureKeyLengthWarning: The HMAC key is 14 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+2026-09-07 08:57:57 UTC | INFO     | nsflow:_log:823 - nsflow -   return self._jws.encode(
+2026-09-07 08:57:57 UTC | INFO     | nsflow:_log:823 - nsflow - /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+2026-09-07 08:57:57 UTC | INFO     | nsflow:_log:823 - nsflow -   warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:57:59 - root - INFO - frontend_dist_path: /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/nsflow/prebuilt_frontend/dist
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:57:59 - root - INFO - Serving frontend from: /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/nsflow/prebuilt_frontend/dist
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Started server process [19236]
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Waiting for application startup.
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:57:59 - root - INFO - FastAPI is starting up...
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:57:59 - root - INFO - Initializing NeuroSan config from environment variables...
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:57:59 - root - INFO - [Startup] Default NsConfig set to http://localhost:8080
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:57:59 - root - INFO - Initializing local database 'nss_local.db'...
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:57:59 - root - INFO - Local database 'nss_local.db' initialized
+2026-09-07 08:57:59 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Application startup complete.
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Manifest file /workspaces/Neurosan_Hackathon_Neuro_Nexus/registries/manifest.hocon restored in 12.17 seconds.
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Reading /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/neuro_san/deploy/logging.hocon
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - GIL state at server startup:  standard CPython build (GIL always enabled). CPython 3.12.1.  PYTHON_GIL=unset
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Using Authorizer: neuro_san.service.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_test_generator to allowed http service list
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_test_generator (45772 bytes): 125321030731152
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_designer to allowed http service list
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_designer (26904 bytes): 125321032118832
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent basic/data_engineer to allowed http service list
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent basic/data_engineer (11220 bytes): 125321030731536
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent experimental/cruse_widget_agent to allowed http service list
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent experimental/cruse_widget_agent (13350 bytes): 125321030730960
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_instructions_editor to allowed http service list
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_instructions_editor (26056 bytes): 125321030730768
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_query_generator to allowed http service list
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_query_generator (8457 bytes): 125321030734896
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_editor to allowed http service list
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_editor (32206 bytes): 125321033290368
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent experimental/cruse_theme_agent to allowed http service list
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent experimental/cruse_theme_agent (26245 bytes): 125321030738736
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting 1 worker processes (worker_id=0, pid=19231)
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: HTTP server is shutting down after 1027053 requests
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['/workspaces/Neurosan_Hackathon_Neuro_Nexus/registries/manifest.hocon'] with 5 seconds period
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Registry polling watchdog started on: /workspaces/Neurosan_Hackathon_Neuro_Nexus/registries for manifest ['/workspaces/Neurosan_Hackathon_Neuro_Nexus/registries/manifest.hocon'] with polling every 1 sec
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: HealthProbeServer started on port 8081
+2026-09-07 08:58:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-09-07 08:58:35 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET / HTTP/1.1" 200 OK
+2026-09-07 08:58:37 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /assets/index.css HTTP/1.1" 304 Not Modified
+2026-09-07 08:58:37 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /assets/index.js HTTP/1.1" 304 Not Modified
+2026-09-07 08:58:37 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/vite_config.json HTTP/1.1" 200 OK
+2026-09-07 08:58:38 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /vite.svg HTTP/1.1" 200 OK
+2026-09-07 08:58:39 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 08:58:39 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+2026-09-07 08:58:39 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/ping HTTP/1.1" 200 OK
+2026-09-07 08:58:39 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/connections HTTP/1.1" 200 OK
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/redirect_uri HTTP/1.1" 200 OK
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/ping HTTP/1.1" 200 OK
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 08:58:40 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start /api/v1/list
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:58:40 - httpx - INFO - HTTP Request: GET http://localhost:8080/api/v1/list "HTTP/1.1 200 OK"
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/list?connection_type=http&host=localhost&port=8080 HTTP/1.1" 200 OK
+2026-09-07 08:58:40 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/list (::1) 1.94ms
+2026-09-07 08:58:40 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish /api/v1/list
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+2026-09-07 08:58:40 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 08:59:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:12 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 08:59:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:12 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 08:59:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:12 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/connectivity
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 125321030731536) used for operation: connectivity
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer HTTP/1.1" 404 Not Found
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /vite.svg HTTP/1.1" 200 OK
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 2660.24ms
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/required/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:15 - basic/data_engineer - INFO - New logs client connected
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish basic/data_engineer/connectivity
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:15 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:15 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/connectivity
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:15 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 08:59:15 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 125321030731536) used for operation: connectivity
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 5.10ms
+2026-09-07 08:59:15 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish basic/data_engineer/connectivity
+2026-09-07 08:59:16 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 08:59:16 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 08:59:17 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:17 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 08:59:17 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:17 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 08:59:17 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:17 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 08:59:17 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/chat/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 08:59:17 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 08:59:17 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:17 - basic/data_engineer - INFO - Chat client session_1788771527789_c9dc730168ac9f connected to agent: basic/data_engineer
+2026-09-07 08:59:17 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/internalchat/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 08:59:17 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 08:59:17 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:17 - basic/data_engineer - INFO - Internal chat connected: basic/data_engineer
+2026-09-07 08:59:18 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:18 - root - INFO - network_name: basic/data_engineer, agent_name: lakehouse_documentation_agent
+2026-09-07 08:59:18 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent/lakehouse_documentation_agent HTTP/1.1" 200 OK
+2026-09-07 08:59:18 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/slydata/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 08:59:18 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 08:59:19 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/progress/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 08:59:19 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 08:59:21 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:21 - root - INFO - network_name: basic/data_engineer, agent_name: lakehouse_quality_specialist
+2026-09-07 08:59:21 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent/lakehouse_quality_specialist HTTP/1.1" 200 OK
+2026-09-07 08:59:25 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:25 - root - INFO - network_name: basic/data_engineer, agent_name: lakehouse_optimizer_agent
+2026-09-07 08:59:26 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent/lakehouse_optimizer_agent HTTP/1.1" 200 OK
+2026-09-07 08:59:33 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 08:59:33 - root - INFO - network_name: basic/data_engineer, agent_name: medallion_governance_auditor
+2026-09-07 08:59:33 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent/medallion_governance_auditor HTTP/1.1" 200 OK
+2026-09-07 09:00:02 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/streaming_chat
+2026-09-07 09:00:02 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.StreamingChat request for 'Audit raw ingestion batch for source 'ecom_production': Payload: {'order_id': 'ORD-2026-99201', 'customer': {'user_id': 'USR-8821', 'full_name': 'Jane M. Doe', 'email': 'jane.doe@example.com', 'ssn': '999-00-1234', 'phone': '+1-555-0199', 'credit_card_last4': '4321'}, 'billing_address': {'street': '123 Tech Way', 'city': 'Austin', 'state': 'TX', 'zip': '78701'}, 'transaction': {'gross_amount': '1249.99', 'discount_code': 'SUMMER20', 'tax_amount': '100.00', 'currency': 'USD', 'status': 'COMPLETED'}, 'items': [{'sku': 'SKU-882', 'qty': '2', 'price': '500.00'}, {'sku': 'SKU-104', 'qty': '1', 'price': '249.99'}], 'event_timestamp': '2026-09-07T14:20:00Z', 'ip_address': '192.168.1.105'}. Requirements: Process into target Delta table silver_orders, mask all PII/PCI fields, apply PySpark transformations, suggest Z-Order/maintenance SQL, and build a complete data dictionary.'
+2026-09-07 09:00:02 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 125321030731536) used for operation: streaming_chat
+2026-09-07 09:02:53 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:53 - root - INFO - network_name: agent_network_designer
+2026-09-07 09:02:53 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /vite.svg HTTP/1.1" 200 OK
+2026-09-07 09:02:53 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/required/agent_network_designer HTTP/1.1" 200 OK
+2026-09-07 09:02:53 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:53 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:02:54 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:53 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:02:54 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:53 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:02:54 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/connectivity
+2026-09-07 09:02:54 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:02:54 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 125321030731536) used for operation: connectivity
+2026-09-07 09:02:54 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:02:54 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:54 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:02:54 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:02:54 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 14.65ms
+2026-09-07 09:02:54 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:54 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:02:54 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish basic/data_engineer/connectivity
+2026-09-07 09:02:54 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:54 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/agent_network_designer/http
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start agent_network_designer/connectivity
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a agent_network_designer.Connectivity request for connectivity request
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/agent_network_designer HTTP/1.1" 200 OK
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'agent_network_designer' (ID: 125321032118832) used for operation: connectivity
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with agent_network_designer.Connectivity request for connectivity request
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/agent_network_designer HTTP/1.1" 200 OK
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/agent_network_designer/connectivity (::1) 2721.28ms
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer HTTP/1.1" 404 Not Found
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /vite.svg HTTP/1.1" 200 OK
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish agent_network_designer/connectivity
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:56 - basic/data_engineer - INFO - New logs client connected
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/agent_network_designer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:56 - agent_network_designer - INFO - New logs client connected
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/connectivity
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:56 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:56 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 125321030731536) used for operation: connectivity
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:56 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 6.22ms
+2026-09-07 09:02:56 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish basic/data_engineer/connectivity
+2026-09-07 09:02:56 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/required/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:02:57 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:57 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:02:57 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:57 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:02:57 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:57 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/agent_network_designer/http
+2026-09-07 09:02:57 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start agent_network_designer/connectivity
+2026-09-07 09:02:57 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/agent_network_designer HTTP/1.1" 200 OK
+2026-09-07 09:02:57 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a agent_network_designer.Connectivity request for connectivity request
+2026-09-07 09:02:57 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'agent_network_designer' (ID: 125321032118832) used for operation: connectivity
+2026-09-07 09:02:57 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with agent_network_designer.Connectivity request for connectivity request
+2026-09-07 09:02:57 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/agent_network_designer/connectivity (::1) 3.75ms
+2026-09-07 09:02:57 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish agent_network_designer/connectivity
+2026-09-07 09:02:58 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 09:02:58 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:02:58 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:58 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:02:58 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:58 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:02:58 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:58 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:02:58 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/chat/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 09:02:58 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:02:58 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:02:58 - basic/data_engineer - INFO - Chat client session_1788771527789_c9dc730168ac9f connected to agent: basic/data_engineer
+2026-09-07 09:03:00 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/internalchat/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 09:03:00 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:00 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:00 - basic/data_engineer - INFO - Internal chat connected: basic/data_engineer
+2026-09-07 09:03:01 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/slydata/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 09:03:01 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:02 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/progress/basic/data_engineer/session_1788771527789_c9dc730168ac9f" [accepted]
+2026-09-07 09:03:02 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:05 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent//agent_network_editor HTTP/1.1" 404 Not Found
+2026-09-07 09:03:06 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent//agent_network_query_generator HTTP/1.1" 404 Not Found
+2026-09-07 09:03:10 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /?network=basic%2Fdata_engineer HTTP/1.1" 200 OK
+2026-09-07 09:03:10 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:10 - basic/data_engineer - INFO - WebSocket chat client disconnected: session_1788771527789_c9dc730168ac9f
+2026-09-07 09:03:10 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /assets/index.css HTTP/1.1" 304 Not Modified
+2026-09-07 09:03:11 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /assets/index.js HTTP/1.1" 304 Not Modified
+2026-09-07 09:03:11 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/vite_config.json HTTP/1.1" 200 OK
+2026-09-07 09:03:11 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /vite.svg HTTP/1.1" 200 OK
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/ping HTTP/1.1" 200 OK
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer HTTP/1.1" 404 Not Found
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:12 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:12 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:12 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/connectivity
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 125321030731536) used for operation: connectivity
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 8.12ms
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish basic/data_engineer/connectivity
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/ping HTTP/1.1" 200 OK
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:12 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:12 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:12 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/connectivity
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 125321030731536) used for operation: connectivity
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 5.36ms
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:03:12 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish basic/data_engineer/connectivity
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/redirect_uri HTTP/1.1" 200 OK
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:12 - root - INFO - network_name: basic/data_engineer, agent_name: lakehouse_quality_specialist
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 09:03:12 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/required/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent/lakehouse_quality_specialist HTTP/1.1" 200 OK
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/connections HTTP/1.1" 200 OK
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/basic/data_engineer/session_1788771801852_0c02654e6cc55d" [accepted]
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:13 - basic/data_engineer - INFO - New logs client connected
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:13 - httpx - INFO - HTTP Request: GET http://localhost:8080/api/v1/list "HTTP/1.1 200 OK"
+2026-09-07 09:03:13 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start /api/v1/list
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/list?connection_type=http&host=localhost&port=8080 HTTP/1.1" 200 OK
+2026-09-07 09:03:13 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/list (::1) 2.72ms
+2026-09-07 09:03:13 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish /api/v1/list
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:13 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:13 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:03:13 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/connectivity
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:13 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:03:13 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:03:13 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 125321030731536) used for operation: connectivity
+2026-09-07 09:03:13 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:03:13 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 4.47ms
+2026-09-07 09:03:13 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish basic/data_engineer/connectivity
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/basic/data_engineer/session_1788771801852_0c02654e6cc55d" [accepted]
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+2026-09-07 09:03:13 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 09:03:14 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:14 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:03:14 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:14 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:03:14 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:14 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:03:14 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/chat/basic/data_engineer/session_1788771801852_0c02654e6cc55d" [accepted]
+2026-09-07 09:03:14 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:14 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:14 - basic/data_engineer - INFO - Chat client session_1788771801852_0c02654e6cc55d connected to agent: basic/data_engineer
+2026-09-07 09:03:15 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/internalchat/basic/data_engineer/session_1788771801852_0c02654e6cc55d" [accepted]
+2026-09-07 09:03:15 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:15 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:15 - basic/data_engineer - INFO - Internal chat connected: basic/data_engineer
+2026-09-07 09:03:16 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/slydata/basic/data_engineer/session_1788771801852_0c02654e6cc55d" [accepted]
+2026-09-07 09:03:16 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:17 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/progress/basic/data_engineer/session_1788771801852_0c02654e6cc55d" [accepted]
+2026-09-07 09:03:17 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:18 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/basic/data_engineer/session_1788771801852_0c02654e6cc55d" [accepted]
+2026-09-07 09:03:18 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:03:18 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:03:18 - basic/data_engineer - INFO - New logs client connected
+2026-09-07 09:03:41 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/streaming_chat
+2026-09-07 09:03:41 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.StreamingChat request for 'Audit raw payload: {'order_id': 'ORD-991', 'user_id': 'USR-8821', 'email': 'jane@example.com', 'ssn': '999-00-1234', 'total_amount': '1249.99', 'event_time': '2026-09-07T14:20:00Z', 'status': 'COMPLETED'}. Clean data for silver_orders, mask PII, optimize storage, and generate column comments.'
+2026-09-07 09:03:41 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 125321030731536) used for operation: streaming_chat
+2026-09-07 09:05:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Cleaning up plugin: ProcessLogBridgePlugin Plugin
+2026-09-07 09:05:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleaning up
+2026-09-07 09:05:07 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleanup complete
+2026-09-07 09:05:08 UTC | ERROR    | nsflow:_log:819 - nsflow - 2026-09-07 09:05:08 - root - ERROR - Unexpected error in WebSocket handler for session_1788771801852_0c02654e6cc55d: 
+2026-09-07 09:05:08 UTC | DEBUG    | nsflow:_log:825 - nsflow -         Some basic suggestions to help debug connectivity issues:
+2026-09-07 09:05:08 UTC | INFO     | nsflow:_log:823 - nsflow -         1. Ensure the server is running and reachable:
+2026-09-07 09:05:08 UTC | INFO     | nsflow:_log:823 - nsflow -            ping <server_address>
+2026-09-07 09:05:08 UTC | INFO     | nsflow:_log:823 - nsflow -            curl -v <server_url>
+2026-09-07 09:05:08 UTC | INFO     | nsflow:_log:823 - nsflow -         2. Check network issues:
+2026-09-07 09:05:08 UTC | INFO     | NeuroSanRunner:signal_handler:303 - Running cleanup for plugin: ProcessLogBridgePlugin Plugin
+2026-09-07 09:05:08 UTC | INFO     | nsflow:_log:823 - nsflow -            traceroute <server_address>  # Linux/macOS
+2026-09-07 09:05:08 UTC | INFO     | ProcessLogBridgePlugin:cleanup:87 - [ProcessLogBridgePlugin] Cleaning up
+2026-09-07 09:05:08 UTC | INFO     | nsflow:_log:823 - nsflow -            tracert <server_address>  # Windows
+2026-09-07 09:05:08 UTC | INFO     | ProcessLogBridgePlugin:cleanup:89 - [ProcessLogBridgePlugin] Cleanup complete
+2026-09-07 09:05:44 UTC | INFO     | ProcessLogBridge:_ensure_root_configured:229 - Runner logging initialized (rich console enabled)
+2026-09-07 09:05:44 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Will watch for changes in these directories: ['/workspaces/Neurosan_Hackathon_Neuro_Nexus']
+2026-09-07 09:05:44 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Uvicorn running on http://localhost:4173 (Press CTRL+C to quit)
+2026-09-07 09:05:44 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Started reloader process [23348] using StatReload
+2026-09-07 09:05:52 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-09-07 09:05:52 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-09-07 09:05:52 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-09-07 09:05:52 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=23351)
+2026-09-07 09:05:52 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=23351)
+2026-09-07 09:05:53 UTC | INFO     | nsflow:_log:823 - nsflow - /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/jwt/api_jwt.py:147: InsecureKeyLengthWarning: The HMAC key is 14 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+2026-09-07 09:05:53 UTC | INFO     | nsflow:_log:823 - nsflow -   return self._jws.encode(
+2026-09-07 09:05:53 UTC | INFO     | nsflow:_log:823 - nsflow - /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+2026-09-07 09:05:53 UTC | INFO     | nsflow:_log:823 - nsflow -   warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:05:55 - root - INFO - frontend_dist_path: /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/nsflow/prebuilt_frontend/dist
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:05:55 - root - INFO - Serving frontend from: /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/nsflow/prebuilt_frontend/dist
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Started server process [23356]
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Waiting for application startup.
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:05:55 - root - INFO - FastAPI is starting up...
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:05:55 - root - INFO - Initializing NeuroSan config from environment variables...
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:05:55 - root - INFO - [Startup] Default NsConfig set to http://localhost:8080
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:05:55 - root - INFO - Initializing local database 'nss_local.db'...
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:05:55 - root - INFO - Local database 'nss_local.db' initialized
+2026-09-07 09:05:55 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     Application startup complete.
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Manifest file /workspaces/Neurosan_Hackathon_Neuro_Nexus/registries/manifest.hocon restored in 11.49 seconds.
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - Reading /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/neuro_san/deploy/logging.hocon
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - GIL state at server startup:  standard CPython build (GIL always enabled). CPython 3.12.1.  PYTHON_GIL=unset
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Using Authorizer: neuro_san.service.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent basic/data_engineer to allowed http service list
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent basic/data_engineer (9499 bytes): 131473019668912
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_test_generator to allowed http service list
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_test_generator (45764 bytes): 131473019675104
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_designer to allowed http service list
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_designer (26912 bytes): 131473019669776
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_query_generator to allowed http service list
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_query_generator (8457 bytes): 131473019671696
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent experimental/cruse_theme_agent to allowed http service list
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent experimental/cruse_theme_agent (26253 bytes): 131473019668816
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent experimental/cruse_widget_agent to allowed http service list
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent experimental/cruse_widget_agent (13350 bytes): 131473019675776
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_instructions_editor to allowed http service list
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_instructions_editor (26056 bytes): 131473019667328
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Added agent agent_network_editor to allowed http service list
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: ADDED network for agent agent_network_editor (32198 bytes): 131473019668960
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting 1 worker processes (worker_id=0, pid=23351)
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: HTTP server is shutting down after 926291 requests
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['/workspaces/Neurosan_Hackathon_Neuro_Nexus/registries/manifest.hocon'] with 5 seconds period
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Registry polling watchdog started on: /workspaces/Neurosan_Hackathon_Neuro_Nexus/registries for manifest ['/workspaces/Neurosan_Hackathon_Neuro_Nexus/registries/manifest.hocon'] with polling every 1 sec
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-09-07 09:06:04 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: HealthProbeServer started on port 8081
+2026-09-07 09:07:05 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET / HTTP/1.1" 200 OK
+2026-09-07 09:07:06 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /assets/index.css HTTP/1.1" 304 Not Modified
+2026-09-07 09:07:06 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /assets/index.js HTTP/1.1" 304 Not Modified
+2026-09-07 09:07:06 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /vite.svg HTTP/1.1" 200 OK
+2026-09-07 09:07:07 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/vite_config.json HTTP/1.1" 200 OK
+2026-09-07 09:07:08 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/ping HTTP/1.1" 200 OK
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/connections HTTP/1.1" 200 OK
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/redirect_uri HTTP/1.1" 200 OK
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/ping HTTP/1.1" 200 OK
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/nsflow HTTP/1.1" 200 OK
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+2026-09-07 09:07:09 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start /api/v1/list
+2026-09-07 09:07:09 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/list (::1) 1.82ms
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/list?connection_type=http&host=localhost&port=8080 HTTP/1.1" 200 OK
+2026-09-07 09:07:09 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish /api/v1/list
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:09 - httpx - INFO - HTTP Request: GET http://localhost:8080/api/v1/list "HTTP/1.1 200 OK"
+2026-09-07 09:07:09 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/version/neuro-san HTTP/1.1" 200 OK
+2026-09-07 09:07:10 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 09:07:10 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 09:07:10 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/get_ns_config HTTP/1.1" 200 OK
+2026-09-07 09:07:18 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /vite.svg HTTP/1.1" 200 OK
+2026-09-07 09:07:18 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer HTTP/1.1" 404 Not Found
+2026-09-07 09:07:18 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:18 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:07:18 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:18 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:07:18 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:18 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/connectivity
+2026-09-07 09:07:21 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 131473019668912) used for operation: connectivity
+2026-09-07 09:07:21 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/mcp/oauth/required/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:07:21 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/basic/data_engineer/session_1788772037357_c6b8d8745a9072" [accepted]
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:07:21 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 2530.08ms
+2026-09-07 09:07:21 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:21 - basic/data_engineer - INFO - New logs client connected
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish basic/data_engineer/connectivity
+2026-09-07 09:07:21 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:21 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:07:21 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:21 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:07:21 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:21 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/connectivity
+2026-09-07 09:07:21 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/connectivity/basic/data_engineer HTTP/1.1" 200 OK
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Received a basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 131473019668912) used for operation: connectivity
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Done with basic/data_engineer.Connectivity request for connectivity request
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 5.38ms
+2026-09-07 09:07:21 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Finish basic/data_engineer/connectivity
+2026-09-07 09:07:22 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/logs/basic/data_engineer/session_1788772037357_c6b8d8745a9072" [accepted]
+2026-09-07 09:07:22 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:07:23 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:23 - root - INFO - Using thinking file: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/agent_thinking.txt
+2026-09-07 09:07:23 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:23 - root - INFO - Using thinking dir: /workspaces/Neurosan_Hackathon_Neuro_Nexus/logs/thinking_dir
+2026-09-07 09:07:23 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:23 - root - INFO - Created agent session for agent: http://localhost:8080/api/v1/basic/data_engineer/http
+2026-09-07 09:07:23 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/chat/basic/data_engineer/session_1788772037357_c6b8d8745a9072" [accepted]
+2026-09-07 09:07:23 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:07:23 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:23 - basic/data_engineer - INFO - Chat client session_1788772037357_c6b8d8745a9072 connected to agent: basic/data_engineer
+2026-09-07 09:07:23 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/internalchat/basic/data_engineer/session_1788772037357_c6b8d8745a9072" [accepted]
+2026-09-07 09:07:23 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:07:23 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:07:23 - basic/data_engineer - INFO - Internal chat connected: basic/data_engineer
+2026-09-07 09:07:24 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/slydata/basic/data_engineer/session_1788772037357_c6b8d8745a9072" [accepted]
+2026-09-07 09:07:24 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:07:25 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "WebSocket /api/v1/ws/progress/basic/data_engineer/session_1788772037357_c6b8d8745a9072" [accepted]
+2026-09-07 09:07:25 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     connection open
+2026-09-07 09:08:30 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: [0] Start basic/data_engineer/streaming_chat
+2026-09-07 09:08:30 UTC | INFO     | NeuroSan:_log:823 - NeuroSan - {"message": "Received a basic/data_engineer.StreamingChat request for 'Audit this incoming raw JSON batch, process it from Bronze to Silver for table `silver_users`, and suggest a storage and partition optimization strategy: [ ]'", "user_id": "codespace", "Timestamp": "2026-09-07T09:08:30.652248", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+2026-09-07 09:08:30 UTC | INFO     | NeuroSan:_log:823 - NeuroSan:HttpServer: Agent network 'basic/data_engineer' (ID: 131473019668912) used for operation: streaming_chat
+2026-09-07 09:08:43 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:08:43 - root - INFO - network_name: basic/data_engineer, agent_name: medallion_governance_auditor
+2026-09-07 09:08:43 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent/medallion_governance_auditor HTTP/1.1" 200 OK
+2026-09-07 09:08:45 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:08:45 - root - INFO - network_name: basic/data_engineer, agent_name: lakehouse_optimizer_agent
+2026-09-07 09:08:45 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent/lakehouse_optimizer_agent HTTP/1.1" 200 OK
+2026-09-07 09:08:46 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:08:46 - root - INFO - network_name: basic/data_engineer, agent_name: lakehouse_optimizer_agent
+2026-09-07 09:08:46 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent/lakehouse_optimizer_agent HTTP/1.1" 200 OK
+2026-09-07 09:08:47 UTC | INFO     | nsflow:_log:823 - nsflow - 2026-09-07 09:08:47 - root - INFO - network_name: basic/data_engineer, agent_name: lakehouse_quality_specialist
+2026-09-07 09:08:47 UTC | INFO     | nsflow:_log:823 - nsflow - INFO:     167.103.21.93:0 - "GET /api/v1/networkconfig/basic/data_engineer/agent/lakehouse_quality_specialist HTTP/1.1" 200 OK
