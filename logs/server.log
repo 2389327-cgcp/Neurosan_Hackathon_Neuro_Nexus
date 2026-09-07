@@ -56,3 +56,281 @@ GIL state at server startup:  standard CPython build (GIL always enabled). CPyth
 {"message": "Cleaning up plugin: ProcessLogBridgePlugin Plugin", "user_id": "None", "Timestamp": "2026-09-07T08:38:21.900054", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
 {"message": "[ProcessLogBridgePlugin] Cleaning up", "user_id": "None", "Timestamp": "2026-09-07T08:38:21.900215", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
 {"message": "[ProcessLogBridgePlugin] Cleanup complete", "user_id": "None", "Timestamp": "2026-09-07T08:38:21.900275", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+Loaded plugin: ProcessLogBridgePlugin Plugin
+Initializing plugin: ProcessLogBridgePlugin Plugin
+[ProcessLogBridgePlugin] Initializing (PID=13698)
+[ProcessLogBridgePlugin] Initialized (PID=13698)
+Manifest file /workspaces/Neurosan_Hackathon_Neuro_Nexus/registries/manifest.hocon restored in 14.18 seconds.
+Reading /workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/neuro_san/deploy/logging.hocon
+GIL state at server startup:  standard CPython build (GIL always enabled). CPython 3.12.1.  PYTHON_GIL=unset
+{"message": "Using Authorizer: neuro_san.service.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.655182", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+>>>>>>>>>>>> Enabling MCP service...
+{"message": "Added agent agent_network_test_generator to allowed http service list", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.658748", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_test_generator (45967 bytes): 125179701305440", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.658860", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent agent_network_designer to allowed http service list", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.658938", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_designer (27091 bytes): 125179700537552", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.658996", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent basic/data_engineer to allowed http service list", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.659054", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent basic/data_engineer (9686 bytes): 125179701298192", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.659103", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent agent_network_query_generator to allowed http service list", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.659163", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_query_generator (8628 bytes): 125179701304192", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.659211", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent agent_network_editor to allowed http service list", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.659292", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_editor (32377 bytes): 125179700540384", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.659343", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent experimental/cruse_theme_agent to allowed http service list", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.664934", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent experimental/cruse_theme_agent (26424 bytes): 125179701298864", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.665001", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent agent_network_instructions_editor to allowed http service list", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.665063", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent agent_network_instructions_editor (26259 bytes): 125179701298288", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.665112", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Added agent experimental/cruse_widget_agent to allowed http service list", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.665177", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent experimental/cruse_widget_agent (13553 bytes): 125179701307552", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.665224", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting 1 worker processes (worker_id=0, pid=13698)", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.672301", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is running 1 instances on port 8080 with backlog 128", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.729576", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server idle connections timeout: 3600 seconds", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.729670", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is shutting down after 968048 requests", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.729721", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "MCP server is running protocol 2025-06-18", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.729766", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting StorageWatcher with 5 seconds period", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.736033", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting RegistryStorageUpdater for ['/workspaces/Neurosan_Hackathon_Neuro_Nexus/registries/manifest.hocon'] with 5 seconds period", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.736087", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Registry polling watchdog started on: /workspaces/Neurosan_Hackathon_Neuro_Nexus/registries for manifest ['/workspaces/Neurosan_Hackathon_Neuro_Nexus/registries/manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.764563", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting TempNetworkStorageUpdater", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.765243", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Waiting for new queues to be added for processing", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.774048", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting EventWorkMonitor with 0.500000 seconds period", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.774550", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting PeriodicEventInitiator with 1.000000 seconds period", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.775327", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HealthProbeServer started on port 8081", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.778384", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Found 0 periodic agent interactions", "user_id": "None", "Timestamp": "2026-09-07T08:47:01.778533", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[0] Start /api/v1/list", "user_id": "None", "Timestamp": "2026-09-07T08:47:10.511990", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "[0] 200 GET /api/v1/list (::1) 1.93ms", "user_id": "None", "Timestamp": "2026-09-07T08:47:10.512568", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "[0] Finish /api/v1/list", "user_id": "None", "Timestamp": "2026-09-07T08:47:10.512646", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "[0] Start basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.284544", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Received a basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.284894", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Agent network 'basic/data_engineer' (ID: 125179701298192) used for operation: connectivity", "user_id": "None", "Timestamp": "2026-09-07T08:47:15.284991", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Done with basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.285175", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "[0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 2607.60ms", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.288953", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "[0] Finish basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.289042", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "[0] Start basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.592346", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Received a basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.592483", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Agent network 'basic/data_engineer' (ID: 125179701298192) used for operation: connectivity", "user_id": "None", "Timestamp": "2026-09-07T08:47:15.592558", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Done with basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.592686", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "[0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 2.18ms", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.593166", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "[0] Finish basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:47:15.593240", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "[0] Start basic/data_engineer/streaming_chat", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:57.366302", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Received a basic/data_engineer.StreamingChat request for 'Audit this raw user payload: {'user_id': 'USR-8821', 'full_name': 'Jane Doe', 'email': 'jane.doe@example.com', 'ssn': '999-00-1234', 'signup_timestamp': '2026-09-07T14:20:00Z', 'city': 'Austin', 'status': 'ACTIVE'}. Write PySpark cleansing code for silver_users, mask any PII, and suggest Z-Order/maintenance SQL.'", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:57.366749", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Agent network 'basic/data_engineer' (ID: 125179701298192) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-09-07T08:48:57.371174", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.727113", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Retrying: the LLM API returned an error (OpenAIAuthenticationError) - Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.740302", "source": "HttpServer", "message_type": "Warning", "request_id": "request-4"}
+{"message": "HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.788056", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Retrying: the LLM API returned an error (OpenAIAuthenticationError) - Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.805590", "source": "HttpServer", "message_type": "Warning", "request_id": "request-4"}
+{"message": "HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.862600", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Retrying: the LLM API returned an error (OpenAIAuthenticationError) - Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.871298", "source": "HttpServer", "message_type": "Warning", "request_id": "request-4"}
+{"message": "Traceback (most recent call last):
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 2179, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/openai/_legacy_response.py", line 386, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 2907, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1979, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1764, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/neuro_san/internals/run_context/langchain/core/run_context_runnable.py", line 231, in invoke_agent_chain
+    chain_result: Dict[str, Any] = await self.agent_chain.ainvoke(input=inputs, config=runnable_config)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langgraph/pregel/main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langgraph/pregel/main.py", line 3440, in astream
+    async for _ in runner.atick(
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langgraph/pregel/_runner.py", line 396, in atick
+    await arun_with_retry(
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langgraph/pregel/_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langgraph/_internal/_runnable.py", line 756, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langgraph/_internal/_runnable.py", line 522, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain/agents/factory.py", line 1534, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain/agents/factory.py", line 1505, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 6027, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 511, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1888, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1846, in agenerate
+    raise exceptions[0]
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 2179, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 2186, in _agenerate
+    _handle_openai_api_error(e)
+  File "/workspaces/Neurosan_Hackathon_Neuro_Nexus/.venv/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 654, in _handle_openai_api_error
+    raise OpenAIAuthenticationError(
+langchain_openai.chat_models.base.OpenAIAuthenticationError: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+During task with name 'model' and id '5d5c751c-1a78-eef9-60b6-29007bd4f5be'
+", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.871519", "source": "HttpServer", "message_type": "Error", "request_id": "request-4"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "successful_requests": 0,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 0.5169882774353027,
+        "caveats": [
+            "Token usage from agents of the main agent network only. Usage from external agents is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ]
+    },
+    "total_token_accounting": {
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "successful_requests": 0,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 0.5169882774353027,
+        "caveats": [
+            "Request total: includes token usage from external agents invoked via direct sessions on this server. Usage from external agents reached over the network is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "openai": {}
+        }
+    }
+}", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.885596", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Done with basic/data_engineer.StreamingChat request for 'Audit this raw user payload: {'user_id': 'USR-8821', 'full_name': 'Jane Doe', 'email': 'jane.doe@example.com', 'ssn': '999-00-1234', 'signup_timestamp': '2026-09-07T14:20:00Z', 'city': 'Austin', 'status': 'ACTIVE'}. Write PySpark cleansing code for silver_users, mask any PII, and suggest Z-Order/maintenance SQL.'", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.885679", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "[0] 200 POST /api/v1/basic/data_engineer/streaming_chat (::1) 2520.94ms", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.885912", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "[0] Finish basic/data_engineer/streaming_chat", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.886007", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "[0] Stats: {'NumProcessing': 0, 'Total': 4, '/api/v1/list': 1, 'basic/data_engineer/connectivity': 2, 'basic/data_engineer/streaming_chat': 1}", "user_id": "codespace", "Timestamp": "2026-09-07T08:48:59.886060", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "[0] Start /api/v1/list", "user_id": "None", "Timestamp": "2026-09-07T08:50:50.528647", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "[0] 200 GET /api/v1/list (::1) 6.65ms", "user_id": "None", "Timestamp": "2026-09-07T08:50:50.533911", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "[0] Finish /api/v1/list", "user_id": "None", "Timestamp": "2026-09-07T08:50:50.533997", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "[0] Start basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.572357", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "Received a basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.576873", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "Agent network 'basic/data_engineer' (ID: 125179701298192) used for operation: connectivity", "user_id": "None", "Timestamp": "2026-09-07T08:50:50.576958", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Done with basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.577100", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "[0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 7.90ms", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.578884", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "[0] Finish basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.578964", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "[0] Start basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.883453", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "Received a basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.883627", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "Agent network 'basic/data_engineer' (ID: 125179701298192) used for operation: connectivity", "user_id": "None", "Timestamp": "2026-09-07T08:50:50.883734", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Done with basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.883897", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "[0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 2.96ms", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.884891", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "[0] Finish basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:50.884980", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "[0] Start basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:51.185089", "source": "HttpServer", "message_type": "Other", "request_id": "request-8"}
+{"message": "Received a basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:51.185214", "source": "HttpServer", "message_type": "Other", "request_id": "request-8"}
+{"message": "Agent network 'basic/data_engineer' (ID: 125179701298192) used for operation: connectivity", "user_id": "None", "Timestamp": "2026-09-07T08:50:51.185284", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Done with basic/data_engineer.Connectivity request for connectivity request", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:51.185410", "source": "HttpServer", "message_type": "Other", "request_id": "request-8"}
+{"message": "[0] 200 GET /api/v1/basic/data_engineer/connectivity (::1) 6.37ms", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:51.185691", "source": "HttpServer", "message_type": "Other", "request_id": "request-8"}
+{"message": "[0] Finish basic/data_engineer/connectivity", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:51.185762", "source": "HttpServer", "message_type": "Other", "request_id": "request-8"}
+{"message": "[0] Start basic/data_engineer/streaming_chat", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:58.861059", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "Received a basic/data_engineer.StreamingChat request for 'Audit this raw user payload: {'user_id': 'USR-8821', 'full_name': 'Jane Doe', 'email': 'jane.doe@example.com', 'ssn': '999-00-1234', 'signup_timestamp': '2026-09-07T14:20:00Z', 'city': 'Austin', 'status': 'ACTIVE'}. Write PySpark cleansing code for silver_users, mask any PII, and suggest Z-Order/maintenance SQL.'", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:58.863831", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "Agent network 'basic/data_engineer' (ID: 125179701298192) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-09-07T08:50:58.868308", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Retrying request in 0.430566 seconds", "user_id": "codespace", "Timestamp": "2026-09-07T08:50:58.916960", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:01.576681", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "No price info found for model google/gemma-4-31b-it:free in llm info. Token cost defaults to 0.", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:04.883967", "source": "HttpServer", "message_type": "Warning", "request_id": "request-9"}
+{"message": "HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:06.019929", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "No price info found for model minimax/minimax-m3:free in llm info. Token cost defaults to 0.", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:07.337388", "source": "HttpServer", "message_type": "Warning", "request_id": "request-9"}
+{"message": "No price info found for model minimax/minimax-m3:free in llm info. Token cost defaults to 0.", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:07.337593", "source": "HttpServer", "message_type": "Warning", "request_id": "request-9"}
+{"message": "HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:08.552328", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "No price info found for model minimax/minimax-m2.7:free in llm info. Token cost defaults to 0.", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:24.561018", "source": "HttpServer", "message_type": "Warning", "request_id": "request-9"}
+{"message": "No price info found for model minimax/minimax-m2.7:free in llm info. Token cost defaults to 0.", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:24.561176", "source": "HttpServer", "message_type": "Warning", "request_id": "request-9"}
+{"message": "HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:25.281696", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "No price info found for model liquid/lfm-2.5-2.6b:free in llm info. Token cost defaults to 0.", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:29.644084", "source": "HttpServer", "message_type": "Warning", "request_id": "request-9"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "total_tokens": 4813,
+        "prompt_tokens": 2433,
+        "completion_tokens": 2380,
+        "successful_requests": 4,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 30.738494396209717,
+        "caveats": [
+            "Token usage from agents of the main agent network only. Usage from external agents is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ]
+    },
+    "total_token_accounting": {
+        "total_tokens": 4813,
+        "prompt_tokens": 2433,
+        "completion_tokens": 2380,
+        "successful_requests": 4,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 30.738494396209717,
+        "caveats": [
+            "Request total: includes token usage from external agents invoked via direct sessions on this server. Usage from external agents reached over the network is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "openai": {
+                "minimax/minimax-m3:free": {
+                    "total_tokens": 356,
+                    "prompt_tokens": 285,
+                    "completion_tokens": 71,
+                    "successful_requests": 1,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 2.4054110050201416
+                },
+                "minimax/minimax-m2.7:free": {
+                    "total_tokens": 1080,
+                    "prompt_tokens": 223,
+                    "completion_tokens": 857,
+                    "successful_requests": 1,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 19.649011850357056
+                },
+                "google/gemma-4-31b-it:free": {
+                    "total_tokens": 577,
+                    "prompt_tokens": 443,
+                    "completion_tokens": 134,
+                    "successful_requests": 1,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 5.971845865249634
+                },
+                "liquid/lfm-2.5-2.6b:free": {
+                    "total_tokens": 2800,
+                    "prompt_tokens": 1482,
+                    "completion_tokens": 1318,
+                    "successful_requests": 1,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 5.075371980667114
+                }
+            }
+        }
+    }
+}", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:29.666322", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "Done with basic/data_engineer.StreamingChat request for 'Audit this raw user payload: {'user_id': 'USR-8821', 'full_name': 'Jane Doe', 'email': 'jane.doe@example.com', 'ssn': '999-00-1234', 'signup_timestamp': '2026-09-07T14:20:00Z', 'city': 'Austin', 'status': 'ACTIVE'}. Write PySpark cleansing code for silver_users, mask any PII, and suggest Z-Order/maintenance SQL.'", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:29.666423", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "[0] 200 POST /api/v1/basic/data_engineer/streaming_chat (::1) 30808.62ms", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:29.666636", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "[0] Finish basic/data_engineer/streaming_chat", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:29.666725", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "[0] Stats: {'NumProcessing': 0, 'Total': 9, '/api/v1/list': 2, 'basic/data_engineer/connectivity': 5, 'basic/data_engineer/streaming_chat': 2}", "user_id": "codespace", "Timestamp": "2026-09-07T08:51:29.668559", "source": "HttpServer", "message_type": "Other", "request_id": "request-9"}
+{"message": "Cleaning up plugin: ProcessLogBridgePlugin Plugin", "user_id": "None", "Timestamp": "2026-09-07T08:52:23.916061", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleaning up", "user_id": "None", "Timestamp": "2026-09-07T08:52:23.916208", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleanup complete", "user_id": "None", "Timestamp": "2026-09-07T08:52:23.916263", "source": "HttpServer", "message_type": "Other", "request_id": "None"}

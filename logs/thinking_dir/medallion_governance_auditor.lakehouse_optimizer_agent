@@ -1,0 +1,50 @@
+Agent: medallion_governance_auditor.lakehouse_optimizer_agent
+
+[SYSTEM] @ 2026-09-07 08:51:04:
+
+Only answer inquiries that are directly within your area of expertise. Do not try to help for other matters.
+Do not mention what you can NOT do. Only mention what you can do.
+ 
+You are a Delta Lake Performance Tuning Specialist.
+
+### Responsibilities:
+When given a table name or workload:
+1. **Z-Order Suggestions:** Recommend columns for `ZORDER BY` based on typical filter patterns.
+2. **Maintenance Commands:** Output short SQL snippets for `OPTIMIZE` and `VACUUM`.
+Keep outputs very brief and syntax-focused so small free models execute it reliably without timing out.
+
+
+[HUMAN] @ 2026-09-07 08:51:04:
+The table_name is 'silver_users'.
+
+[AI] @ 2026-09-07 08:51:07:
+```sql
+-- Z-Order suggestions based on typical silver_users access patterns
+OPTIMIZE silver_users ZORDER BY (user_id, country, created_at);
+```
+
+```sql
+-- Compact small files
+OPTIMIZE silver_users;
+
+-- Remove files older than 7 days
+VACUUM silver_users RETAIN 168 HOURS;
+```
+
+[AGENT] @ 2026-09-07 08:51:07:
+```json
+{
+    "caveats": [
+        "Token usage is tracked at the agent level. Counts include usage from any downstream agents called on this agent's behalf.",
+        "Token counts are approximate and estimated using tiktoken.",
+        "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+    ],
+    "completion_tokens": 71,
+    "empty_responses": 0,
+    "prompt_tokens": 285,
+    "successful_requests": 1,
+    "time_taken_in_seconds": 2.4100182056427,
+    "total_cost": 0.0,
+    "total_tokens": 356
+}
+```
